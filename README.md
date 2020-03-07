@@ -11,7 +11,8 @@ see this [site](https://github.com/onlaj/Piano-LED-Visualizer) for details of sy
 * MIDI to USB interface(iConnectivity mio)
 * WS2812B LED Strip (1m with 144 diodes/meter)
 * Power Supply (5V 4A, 6A is enough to light 172 LEDs @50% power)
-* Some wires
+* Some wires   
+![wiring](https://user-images.githubusercontent.com/2408306/76139039-f4179f00-608f-11ea-9ecd-d1046e7bb37f.png)
 ### 2) Software:
 * raspbian
 * ssh (to change LED brightness and color)
