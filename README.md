@@ -3,6 +3,7 @@ piano_visualizer
 only very simple functions which light on when key is pressed operate.    
 see this [site](https://github.com/onlaj/Piano-LED-Visualizer) for details of system.   
 ![piano_led](https://user-images.githubusercontent.com/2408306/76138407-13f89400-608b-11ea-8901-a6d83f9ee136.png)
+(https://youtu.be/87CoHgi19pU)
 
 ## what you needs
 ### 1) Hardware:
