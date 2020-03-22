@@ -1,3 +1,6 @@
+""" 
+simple test program that displays on when the key is pressed and off when the key is released. 
+"""
 import mido
 
 def read_midi():
