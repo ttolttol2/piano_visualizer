@@ -38,8 +38,38 @@ Raspberry Pi reference 2019-09-26
 Generated using pi-gen, https://github.com/RPi-Distro/pi-gen, 80d486687ea77d31fc3fc13cf3a2f8b464e129be, stage2
 pi@raspberrypi:~ $ python3 -V
 Python 3.7.3
-pi@raspberrypi:~ $ sudo python3 midi/
-midi_test.py   visualizer.py
+pi@raspberrypi:~/midi $ python3 test.midi.py
+48 on 40
+48 off 42
+50 on 285
+50 off 39
+52 on 276
+52 off 253
+53 on 275
+53 off 259
+55 on 269
+55 off 288
+57 on 39
+57 off 278
+59 on 274
+59 off 272
+60 on 122
+60 off 388
+62 on 275
+62 off 103
+64 on 271
+64 off 256
+65 on 109
+65 off 272
+67 on 104
+67 off 38
+69 on 298
+69 off 113
+71 on 102
+71 off 103
+72 on 121
+72 off 103
+
 pi@raspberrypi:~ $ sudo python3 midi/visualizer.py
 ``` 
 
