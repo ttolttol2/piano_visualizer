@@ -13,10 +13,10 @@ def read_midi():
             for msg in inport.iter_pending():
                 if (msg.type == 'note_on' and msg.velocity > 0):
                     end = time.time()
-                    print(msg.note, 'on', timedelta(seconds=end-start).microseconds)
+                    print(msg.note, 'on', timedelta(seconds=end-start))
                 else:
                     end = time.time()
-                    print(msg.note, 'off', timedelta(seconds=end-start).microseconds)
+                    print(msg.note, 'off', timedelta(seconds=end-start))
 
         except AttributeError as error:
             print("Error expected")
