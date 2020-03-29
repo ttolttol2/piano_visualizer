@@ -73,7 +73,7 @@ pi@raspberrypi:~/midi $ sudo python3 test_midi_led.py
 72 on 0:00:00.000039
 72 off 0:00:00.000040
 
-pi@raspberrypi:~ $ sudo python3 midi/visualizer.py
+pi@raspberrypi:~ $ sudo python3 visualizer.py
 ``` 
 
 ## LED strip wiring
