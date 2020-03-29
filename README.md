@@ -38,7 +38,7 @@ Raspberry Pi reference 2019-09-26
 Generated using pi-gen, https://github.com/RPi-Distro/pi-gen, 80d486687ea77d31fc3fc13cf3a2f8b464e129be, stage2
 pi@raspberrypi:~ $ python3 -V
 Python 3.7.3
-pi@raspberrypi:~/midi $ python3 test.midi.py
+pi@raspberrypi:~/midi $ python3 test_midi.py
 60 on 0:00:00.000035
 60 off 0:00:00.000033
 62 on 0:00:00.000033
@@ -55,7 +55,23 @@ pi@raspberrypi:~/midi $ python3 test.midi.py
 71 off 0:00:00.000037
 72 on 0:00:00.000299
 72 off 0:00:00.000289
-
+pi@raspberrypi:~/midi $ sudo python3 test_midi_led.py
+60 on 0:00:00.000040
+60 off 0:00:00.000037
+62 on 0:00:00.000039
+62 off 0:00:00.000039
+64 on 0:00:00.000036
+64 off 0:00:00.000037
+65 on 0:00:00.000037
+65 off 0:00:00.000078
+67 on 0:00:00.000048
+67 off 0:00:00.000040
+69 on 0:00:00.000040
+69 off 0:00:00.000041
+71 on 0:00:00.000036
+71 off 0:00:00.000038
+72 on 0:00:00.000039
+72 off 0:00:00.000040
 
 pi@raspberrypi:~ $ sudo python3 midi/visualizer.py
 ``` 
